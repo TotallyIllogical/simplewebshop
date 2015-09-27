@@ -1,0 +1,32 @@
+// Includes
+@import "pure/all";
+
+// Variables
+$blue: #258ADA;
+$red: red;
+
+// Additions
+img {
+	min-height: 400px;
+}
+.padded-box {
+	padding: 15px;
+}
+
+.cart {
+	background-color: $blue;
+	color: white;
+	text-align: right;
+}
+.empty-cart-button {
+	background-color: $red;
+	color: white;
+	// font-weight: bold;
+}
+.buy-button {
+	background-color: $blue;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
