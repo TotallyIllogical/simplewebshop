@@ -1,6 +1,8 @@
 <?php 
 	require_once "inc/store.php";
 	require_once "template/store_template.php";
+	
+	// getItems() located in inc/store.php
 	$items = getItems();
 ?>
 
@@ -20,6 +22,7 @@
 	<!-- Cart -->
 	<div class="pure-u-1 cart">
 		<div class="menu-box">
+		<!-- Cart content comes from cart.php -->
 			<div id="cart">
 			</div>
 		</div>
@@ -27,6 +30,7 @@
 
 	<!-- Items -->
 	<div class="content-box">
+	<!-- printItems() located in template/store_template.php -->
 		<?php printItems($items); ?>
 	</div>
     
