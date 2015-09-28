@@ -5,12 +5,12 @@ function printItems($items){
 	foreach($items as $item){
 		?>
 		<div class="product-box">
-			<div class="pure-u-1-3">
+			<div class="pure-u-1 pure-u-md-1-3">
 		    	<div class="image padded-box">
 					<img src="<?php print $item->image; ?>" class="pure-img">
 				</div>
 			</div>
-		    <div class="pure-u-2-3">
+		    <div class="pure-u-1 pure-u-md-1-3">
 		    	<div class="pure-u-1">
 			    	<div class="title padded-box">
 						<h1><?php print $item->title; ?></h1>
