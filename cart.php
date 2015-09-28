@@ -7,6 +7,7 @@ session_start();
 // Temporary reset
 // $_SESSION["cartItems"] = array();
 
+
 if( isset( $_SESSION["cartItems"] ) ){
 	$cartItems = $_SESSION["cartItems"];
 }else{

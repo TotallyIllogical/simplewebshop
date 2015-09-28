@@ -19,12 +19,16 @@
 
 	<!-- Cart -->
 	<div class="pure-u-1 cart">
-		<div class="padded-box" id="cart">
+		<div class="menu-box">
+			<div id="cart">
+			</div>
 		</div>
 	</div>
 
 	<!-- Items -->
-	<?php printItems($items); ?>
+	<div class="content-box">
+		<?php printItems($items); ?>
+	</div>
     
 </div>
 	

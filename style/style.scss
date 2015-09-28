@@ -6,24 +6,46 @@ $blue: #258ADA;
 $red: red;
 
 // Additions
-img {
-	min-height: 400px;
-}
-.padded-box {
-	padding: 15px;
-}
-
 .cart {
 	background-color: $blue;
-	color: white;
+	height: 68px;
+}
+
+.menu-box {
+  	margin: 25px auto;
+  	max-width: 1200px;
+  	color: white;
 	text-align: right;
 }
+
+.content-box {
+	margin-left: auto ;
+  	margin-right: auto ;
+  	max-width: 1500px;
+}
+
 .empty-cart-button {
+	margin: 0 0 0 15px;
+	padding: 5px;
 	background-color: $red;
 	color: white;
-	// font-weight: bold;
 }
+
+.product-box {
+	padding: 40px 0px 50px;
+	border-bottom: 1px solid LightSteelBlue;
+}
+
+.title h1{
+	margin: 0;
+}
+
+.padded-box {
+	padding: 0px 25px;
+}
+
 .buy-button {
+	padding: 8px;
 	background-color: $blue;
 	color: white;
 	text-transform: uppercase;
