@@ -4,7 +4,7 @@ require_once "inc/store.php";
 
 session_start();
 
-// Checks if the sessions has items in the cart, if it doesn't it redirects back to index.php
+// Checks if the sessions has items in the cart, if it doesn't it redirect
 if( isset( $_SESSION["cartItems"] ) ){
 	$cartItems = $_SESSION["cartItems"];
 }else{

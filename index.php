@@ -10,11 +10,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Skilltest for Caupo">
+    <meta name="description" content="">
     <script src="script/script.min.js"></script>
     <link rel="stylesheet" href="style/style.css">
 	
-	<title>Caupos Arbetsprov</title>
+	<title>Webshop</title>
 </head>
 <body>
 <div class="pure-g">

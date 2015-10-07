@@ -31,5 +31,5 @@ if( isset( $_POST["item"] ) ){
 	$_SESSION["cartItems"] = $cartItems;
 }
 
-// Function comes from template/cart_template.php
+// Function located in template/cart_template.php
 printCart($cartItems);

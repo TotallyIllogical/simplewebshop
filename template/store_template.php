@@ -1,5 +1,7 @@
 <?php
 
+// Loop the parameter and adds them in their proper places in the template.
+
 function printItems($items){
 
 	foreach($items as $item){

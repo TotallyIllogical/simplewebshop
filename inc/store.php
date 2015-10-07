@@ -20,7 +20,7 @@ function putItemInCart($item){
 	// Fetches the array from getItems
 	$items = getItems();
 
-	// Goes through the array and if it matches the parameter sent to the function lowers the matching item quantity by one
+	// Loop the array and if it finds matches lowers the matching item quantity by one
 	foreach ($items as &$value) {
 		if ( $value->title == $item ) {
 			$value->quantity = $value->quantity -1;
@@ -36,7 +36,7 @@ function getItemPrice($title){
 	// Fetches the array from getItems
 	$items = getItems();
 
-	// Goes through the array and fetches the price of the item that the parameter matches 
+	// Loop the array and fetches the price of the item that matches the parameter  
 	foreach ($items as $value) {
 		if ( $value->title == $title ) {
 			return $value->price;
@@ -47,7 +47,7 @@ function getItemPrice($title){
 function calculateCart($cartItems){
 	$sum = 0;
 
-	// Goes through the items sent to the function and uses the quantity and price to calculate the total sum
+	// Loop the items sent to the function and uses the quantity and price to calculate the total sum
 	foreach ($cartItems as $title => $quantity) {
 		$price = getItemPrice($title);
 		$sum += $price * $quantity;

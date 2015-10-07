@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	// Loads cart.php and adds the result to the div with the cart id
+	// Loads cart.php and adds it to the div with the cart id
 	$("#cart").load("cart.php");
 
 	// Reacts when a buy-button is clicked
@@ -16,7 +16,7 @@ $(document).ready(function(){
 		if(calculatedQuantity === 0 ){
 			$(this).addClass("pure-button-disabled").attr("disabled", "disabled");
 		}
-		// See var calculatedQuantity
+		// See the variables currentItem and calculatedQuantity
 		$("#quantity-" + currentItem).html(calculatedQuantity);
 
 		// POSTs the item to cart.php
