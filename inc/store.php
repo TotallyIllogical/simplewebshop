@@ -17,6 +17,8 @@ function getItems(){
 }
 
 function putItemInCart($item){
+	$itemQuantity = 0;
+
 	// Fetches the array from getItems
 	$items = getItems();
 

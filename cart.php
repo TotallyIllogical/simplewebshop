@@ -15,6 +15,7 @@ if( isset( $_SESSION["cartItems"] ) ){
 }
 
 // Checks if it has received an item. If it does it uses it to run the function putItemInCart located in inc/store.php
+
 if( isset( $_POST["item"] ) ){
 
 	$itemname = $_POST["item"];

@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 		// POSTs the item to cart.php
 		$.post("cart.php", {item: currentItem}).done(function(data){
-			
+			$("#cart").html(data);
 		});
 
 	});
